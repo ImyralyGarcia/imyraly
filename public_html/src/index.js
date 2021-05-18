@@ -12,9 +12,9 @@ const validation = [
     check("name", "A valid name is required").not().isEmpty().trim().escape(),
     check("email", "Please provide a valid email").isEmail(),
     check("subject").optional().trim().escape(),
-    check("message", "Please provide a message that is under three thousand characters")
+    check("message", "Please provide a message that is under two thousand characters")
         .trim()
-        .escape().isLength({min:1, max:3000})
+        .escape().isLength({min:1, max:2000})
 
 ]
 

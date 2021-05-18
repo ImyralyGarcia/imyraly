@@ -16,7 +16,7 @@ $(document).ready(function () {
             },
             message: {
                 required: true,
-                maxlength: 3000 //DO NOT camel case max length. It's just a JQuery rule.
+                maxlength: 2000 //DO NOT camel case max length. It's just a JQuery rule.
             }
         },
         messages: {
@@ -51,4 +51,4 @@ $(document).ready(function () {
 
 
     })
-)}
+})
