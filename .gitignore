@@ -1,4 +1,4 @@
 /.idea
 .DS_Store
-/node_modules
+/public_html/src/node_modules/
 public_html/src/.env
